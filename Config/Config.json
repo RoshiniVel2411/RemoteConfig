@@ -37,7 +37,7 @@
       },
       {
           "name": "Appointment Booking",
-          "enable": false
+          "enable": true
       }
   ],
   "versionsAndroid": [
