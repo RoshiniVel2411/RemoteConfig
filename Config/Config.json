@@ -26,6 +26,20 @@
         ]
     }
   ],
+  "features": [
+      {
+          "name": "Zelle",
+          "enable": false
+      },
+      {
+          "name": "TNSystem",
+          "enable": false
+      },
+      {
+          "name": "Appointment Booking",
+          "enable": false
+      }
+  ],
   "versionsAndroid": [
     {
       "appId": "SantanderNativeApp/2.0",
