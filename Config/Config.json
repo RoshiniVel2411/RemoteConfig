@@ -29,7 +29,7 @@
   "features": [
       {
           "name": "Zelle",
-          "enable": true
+          "enable": false
       },
       {
           "name": "TNSystem",
