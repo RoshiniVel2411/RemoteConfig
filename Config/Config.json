@@ -1,30 +1,30 @@
 
+
 {
-  "domains": [
-    {
-      "url": "https://mob-a.santanderbank.com/",
-      "description": "main",
-      "keys": [
-        "sha256/oqsWhK1U4JFpK1Hkr5wOXuaPb+/gdkKYRddhD/wIHnA=",
-        "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs="
-      ]
-    },
-    {
-        "url": "https://apiint.santanderbank.com/",
-        "description": "api",
-        "keys":[
-            "sha256/oqsWhK1U4JFpK1Hkr5wOXuaPb+/gdkKYRddhD/wIHnA=",
-            "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs="
-        ]
-    },
-    {
-        "url": "https://santanderbank.com/",
-        "description": "liferay",
-        "keys":[
-            "sha256/oqsWhK1U4JFpK1Hkr5wOXuaPb+/gdkKYRddhD/wIHnA=",
-            "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs="
-        ]
-    }
+  "domains": [{
+          "url": "https://mob-a.santanderbank.com/",
+          "description": "main",
+          "keys": [
+              "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
+              "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+          ]
+      },
+      {
+          "url": "https://apiint.santanderbank.com/",
+          "description": "api",
+          "keys": [
+              "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
+              "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+          ]
+      },
+      {
+          "url": "https://santanderbank.com/",
+          "description": "liferay",
+          "keys": [
+              "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
+              "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+          ]
+      }
   ],
   "features": [
       {
@@ -69,3 +69,5 @@
     }
   ]
 }
+
+
