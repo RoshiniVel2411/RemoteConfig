@@ -38,6 +38,10 @@
       {
           "name": "Appointment Booking",
           "enable": false
+      }, 
+      {
+          "name":"virtual_assistant",
+          "enable": true
       }
   ],
   "versionsAndroid": [
