@@ -42,6 +42,10 @@
       {
           "name":"virtual_assistant",
           "enable": true
+      },
+      {
+          "name":"Lending Payments",
+          "enable": true
       }
   ],
   "versionsAndroid": [
