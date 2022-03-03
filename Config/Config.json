@@ -1,81 +1,71 @@
-
-
 {
-  "domains": [{
-          "url": "https://mob-a.santanderbank.com/",
-          "description": "main",
-          "keys": [
-              "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
-              "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+    "domains": [
+        {
+            "url": "https://mob-a.santanderbank.com/",
+            "description": "main",
+            "keys": [
+                "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
+                "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+            ]
+        },
+        {
+            "url": "https://apiint.santanderbank.com/",
+            "description": "api",
+            "keys": [
+                "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
+                "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+            ]
+        },
+        {
+            "url": "https://santanderbank.com/",
+            "description": "liferay",
+            "keys": [
+                "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
+                "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
+            ]
+        },
+        {
+         "url":"https://east-us-internetclient.cards.apis.pre.santander.com",
+         "description":"dispute-tracking",
+         "keys":[
+            "sha256/W16gnEW/JZvrrcc7/ATINebZn6L+byEnaO4fHfPAIdE="
           ]
-      },
-      {
-          "url": "https://apiint.santanderbank.com/",
-          "description": "api",
-          "keys": [
-              "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
-              "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
-          ]
-      },
-      {
-          "url": "https://santanderbank.com/",
-          "description": "liferay",
-          "keys": [
-              "sha256/Pv7GeGeiW7Yz3bVE3a94G6y/NCvaAkzX/bng1vKeCBs=",
-              "sha256/DyrhkpPv6cyghK6/4c8yAm//ZRoEZN52DEN+C1WtdiQ="
-          ]
-      }
-  ],
-  "features": [
-      {
-          "name": "Zelle",
-          "enable": true
-      },
-      {
-          "name": "TNSystem",
-          "enable": false
-      },
-      {
-          "name": "Appointment Booking",
-          "enable": false
-      }, 
-      {
-          "name":"virtual_assistant",
-          "enable": true
-      },
-      {
-          "name":"Lending Payments",
-          "enable": true
-      }
-  ],
-  "versionsAndroid": [
-    {
-      "appId": "SantanderNativeApp/2.0",
-      "action": 91,
-      "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.sovereign.santander"
-    },
-    {
-      "appId": "SantanderNativeApp/4.5",
-      "action": 91,
-      "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.sovereign.santander"
-    }
-  ],
-  "versionsiOS": [
-    {
-      "appId": "SantanderNativeApp/2.0",
-      "action": 91,
-      "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
-      "storeUrl": "https://itunes.apple.com/us/app/personal-banking/id613009563?ls=1&mt=8"
-    },
-    {
-      "appId": "SantanderNativeApp/4.5",
-      "action": 91,
-      "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
-      "storeUrl": "https://itunes.apple.com/us/app/personal-banking/id613009563?ls=1&mt=8"
-    }
-  ]
+        }
+    ],
+    "features": [
+        {
+        "name": "TNSystem",
+        "enable": true
+        },
+        {
+            "name": "disputes_tracking",
+            "enable": true
+        }
+    ],
+    "versionsAndroid": [{
+            "appId": "SantanderNativeApp/2.0",
+            "action": 91,
+            "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
+            "storeUrl": "https://play.google.com/store/apps/details?id=com.sovereign.santander"
+        },
+        {
+            "appId": "SantanderNativeApp/4.5",
+            "action": 91,
+            "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
+            "storeUrl": "https://play.google.com/store/apps/details?id=com.sovereign.santander"
+        }
+    ],
+    "versionsiOS": [{
+            "appId": "SantanderNativeApp/2.0",
+            "action": 91,
+            "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
+            "storeUrl": "https://itunes.apple.com/us/app/personal-banking/id613009563?ls=1&mt=8"
+        },
+        {
+            "appId": "SantanderNativeApp/4.5",
+            "action": 91,
+            "msg": "Sorry, this version of our app is no longer supported. Please download the latest version of our app to enjoy our new design and additional features.",
+            "storeUrl": "https://itunes.apple.com/us/app/personal-banking/id613009563?ls=1&mt=8"
+        }
+    ]
 }
-
-
