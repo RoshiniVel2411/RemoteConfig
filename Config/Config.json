@@ -40,7 +40,11 @@
         {
             "name": "disputes_tracking",
             "enable": true
-        }
+        },
+        {
+          "name": "TNRecurring",
+          "enable": true
+      }
     ],
     "versionsAndroid": [{
             "appId": "SantanderNativeApp/2.0",
