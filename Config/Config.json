@@ -43,7 +43,7 @@
         },
         {
           "name": "TNRecurring",
-          "enable": true
+          "enable": false
       }
     ],
     "versionsAndroid": [{
