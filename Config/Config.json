@@ -44,6 +44,10 @@
         {
           "name": "TNRecurring",
           "enable": false
+      },
+        {
+          "name": "transaction_enrichment",
+          "enable": true
       }
     ],
     "versionsAndroid": [{
