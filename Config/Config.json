@@ -43,7 +43,7 @@
         },
         {
           "name": "TNRecurring",
-          "enable": false
+          "enable": true
       },
         {
           "name": "transaction_enrichment",
